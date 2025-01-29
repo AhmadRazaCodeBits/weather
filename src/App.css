@@ -1,0 +1,30 @@
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content {
+  margin-top: 2rem;
+}
+
+.weather-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.error-message {
+  color: var(--error-color);
+  background-color: #f8d7da;
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .weather-display {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,27 @@
+.history {
+    margin-top: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .history-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .history-item {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .history-item:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
